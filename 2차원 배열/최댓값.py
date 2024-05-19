@@ -1,6 +1,6 @@
 max_num = 0;
-answer_row = 0;
-answer_col = 0;
+answer_row = 1;
+answer_col = 1;
 
 for i in range(9):
   rows = list(map(int, input().split(' ')));
