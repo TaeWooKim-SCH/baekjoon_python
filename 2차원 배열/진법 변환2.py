@@ -1,6 +1,11 @@
-N, B = list(map(int, input().split(' ')));
+N, B = map(int, input().split());
 
 alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-count = 0;
+answer = '';
 
+while N:
+  answer += alphabet[N % B];
+  N //= B;
+
+print(answer[::-1]);
 
