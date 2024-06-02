@@ -12,18 +12,17 @@ for _ in range(T):
   nickel_c = 0;
   penny_c = 0;
 
-  if (C // quarter > 0):
-    quarter_c = C // quarter;
-    C -= quarter * quarter_c;
-  if (C // dime > 0):
-    dime_c = C // dime;
-    C -= dime * dime_c;
-  if (C // nickel > 0):
-    nickel_c = C // nickel;
-    C -= nickel * nickel_c;
-  if (C // penny > 0):
-    penny_c = C // penny;
-    C -= penny * penny_c;
-  print(C);
+  quarter_c = C // quarter;
+  C -= quarter * quarter_c;
+
+  dime_c = C // dime;
+  C -= dime * dime_c;
+
+  nickel_c = C // nickel;
+  C -= nickel * nickel_c;
+
+  penny_c = C // penny;
+  C -= penny * penny_c;
+  
   print(quarter_c, dime_c, nickel_c, penny_c);
 
