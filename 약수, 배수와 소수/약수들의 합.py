@@ -14,4 +14,4 @@ while True:
   if (perfect_num == n):
     print(answer);
   else:
-    print('{0} is NOT perfect'.format(n));
+    print('{0} is NOT perfect.'.format(n));
