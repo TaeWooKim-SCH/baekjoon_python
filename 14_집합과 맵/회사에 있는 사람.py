@@ -37,4 +37,3 @@ print('\n'.join(result));
 
 
 
-
