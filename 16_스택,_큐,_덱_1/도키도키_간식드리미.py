@@ -10,7 +10,7 @@ target = 1;
 while (True):
     if (target == N):
         print("Nice");
-        break;
+        break; 
 
     is_empty_stack = stack_size == 0;
     is_empty_num_list = len(num_list) == 0;
@@ -27,3 +27,5 @@ while (True):
     elif (num_list == target):
         target += 1;
         num_list.pop(0);
+
+### 원래 줄이 비어있을 때, 빈 공간 줄이 비어있을 때, 둘 다 차있을 때로 분기처리
